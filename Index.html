@@ -387,24 +387,7 @@
       </div>
     </footer>
 
-    <script>
-      // 모바일 네비게이션 토글
-      const btn = document.querySelector('.nav-toggle');
-      const nav = document.querySelector('.main-nav');
-      btn.addEventListener('click', () => {
-        nav.classList.toggle('open');
-      });
-
-      // 합격자 명단 더보기 토글
-      function toggleSuccess() {
-        const hidden = document.getElementById('success-hidden');
-        const btn = document.querySelector('.btn-toggle-success');
-        hidden.classList.toggle('open');
-        btn.textContent = hidden.classList.contains('open')
-          ? '접기'
-          : '더보기 (6명 더)';
-      }
-    </script>
+    <script src="script.js"></script>
 
     <a class="sticky-contact" href="tel:055-311-3577" aria-label="상담 전화"
       >상담문의 055-311-3577</a
